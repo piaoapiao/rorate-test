@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E78896B915F79CF700B98495 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78896B815F79CF700B98495 /* UIKit.framework */; };
+		E78896BB15F79CF700B98495 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78896BA15F79CF700B98495 /* Foundation.framework */; };
+		E78896BD15F79CF700B98495 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78896BC15F79CF700B98495 /* CoreGraphics.framework */; };
+		E78896C315F79CF700B98495 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E78896C115F79CF700B98495 /* InfoPlist.strings */; };
+		E78896C515F79CF700B98495 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78896C415F79CF700B98495 /* main.m */; };
+		E78896C915F79CF700B98495 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78896C815F79CF700B98495 /* AppDelegate.m */; };
+		E78896CC15F79CF700B98495 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78896CB15F79CF700B98495 /* ViewController.m */; };
+		E78896CF15F79CF700B98495 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78896CD15F79CF700B98495 /* ViewController.xib */; };
+		E78896D815F79DD900B98495 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78896D715F79DD900B98495 /* QuartzCore.framework */; };
+		E78896DA15F79E4400B98495 /* tc_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = E78896D915F79E4400B98495 /* tc_wheel.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E78896B415F79CF700B98495 /* Rorate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rorate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78896B815F79CF700B98495 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E78896BA15F79CF700B98495 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E78896BC15F79CF700B98495 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E78896C015F79CF700B98495 /* Rorate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rorate-Info.plist"; sourceTree = "<group>"; };
+		E78896C215F79CF700B98495 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E78896C415F79CF700B98495 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E78896C615F79CF700B98495 /* Rorate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rorate-Prefix.pch"; sourceTree = "<group>"; };
+		E78896C715F79CF700B98495 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E78896C815F79CF700B98495 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E78896CA15F79CF700B98495 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E78896CB15F79CF700B98495 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E78896CE15F79CF700B98495 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E78896D715F79DD900B98495 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E78896D915F79E4400B98495 /* tc_wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tc_wheel.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E78896B115F79CF700B98495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78896D815F79DD900B98495 /* QuartzCore.framework in Frameworks */,
+				E78896B915F79CF700B98495 /* UIKit.framework in Frameworks */,
+				E78896BB15F79CF700B98495 /* Foundation.framework in Frameworks */,
+				E78896BD15F79CF700B98495 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E78896A915F79CF700B98495 = {
+			isa = PBXGroup;
+			children = (
+				E78896D715F79DD900B98495 /* QuartzCore.framework */,
+				E78896BE15F79CF700B98495 /* Rorate */,
+				E78896B715F79CF700B98495 /* Frameworks */,
+				E78896B515F79CF700B98495 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E78896B515F79CF700B98495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E78896B415F79CF700B98495 /* Rorate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E78896B715F79CF700B98495 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E78896B815F79CF700B98495 /* UIKit.framework */,
+				E78896BA15F79CF700B98495 /* Foundation.framework */,
+				E78896BC15F79CF700B98495 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E78896BE15F79CF700B98495 /* Rorate */ = {
+			isa = PBXGroup;
+			children = (
+				E78896D915F79E4400B98495 /* tc_wheel.png */,
+				E78896C715F79CF700B98495 /* AppDelegate.h */,
+				E78896C815F79CF700B98495 /* AppDelegate.m */,
+				E78896CA15F79CF700B98495 /* ViewController.h */,
+				E78896CB15F79CF700B98495 /* ViewController.m */,
+				E78896CD15F79CF700B98495 /* ViewController.xib */,
+				E78896BF15F79CF700B98495 /* Supporting Files */,
+			);
+			path = Rorate;
+			sourceTree = "<group>";
+		};
+		E78896BF15F79CF700B98495 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E78896C015F79CF700B98495 /* Rorate-Info.plist */,
+				E78896C115F79CF700B98495 /* InfoPlist.strings */,
+				E78896C415F79CF700B98495 /* main.m */,
+				E78896C615F79CF700B98495 /* Rorate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E78896B315F79CF700B98495 /* Rorate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78896D215F79CF700B98495 /* Build configuration list for PBXNativeTarget "Rorate" */;
+			buildPhases = (
+				E78896B015F79CF700B98495 /* Sources */,
+				E78896B115F79CF700B98495 /* Frameworks */,
+				E78896B215F79CF700B98495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rorate;
+			productName = Rorate;
+			productReference = E78896B415F79CF700B98495 /* Rorate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E78896AB15F79CF700B98495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = wgdadmin;
+			};
+			buildConfigurationList = E78896AE15F79CF700B98495 /* Build configuration list for PBXProject "Rorate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E78896A915F79CF700B98495;
+			productRefGroup = E78896B515F79CF700B98495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E78896B315F79CF700B98495 /* Rorate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E78896B215F79CF700B98495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78896C315F79CF700B98495 /* InfoPlist.strings in Resources */,
+				E78896CF15F79CF700B98495 /* ViewController.xib in Resources */,
+				E78896DA15F79E4400B98495 /* tc_wheel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E78896B015F79CF700B98495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78896C515F79CF700B98495 /* main.m in Sources */,
+				E78896C915F79CF700B98495 /* AppDelegate.m in Sources */,
+				E78896CC15F79CF700B98495 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E78896C115F79CF700B98495 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78896C215F79CF700B98495 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E78896CD15F79CF700B98495 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78896CE15F79CF700B98495 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E78896D015F79CF700B98495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E78896D115F79CF700B98495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E78896D315F79CF700B98495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rorate/Rorate-Prefix.pch";
+				INFOPLIST_FILE = "Rorate/Rorate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E78896D415F79CF700B98495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rorate/Rorate-Prefix.pch";
+				INFOPLIST_FILE = "Rorate/Rorate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E78896AE15F79CF700B98495 /* Build configuration list for PBXProject "Rorate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78896D015F79CF700B98495 /* Debug */,
+				E78896D115F79CF700B98495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78896D215F79CF700B98495 /* Build configuration list for PBXNativeTarget "Rorate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78896D315F79CF700B98495 /* Debug */,
+				E78896D415F79CF700B98495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E78896AB15F79CF700B98495 /* Project object */;
+}
