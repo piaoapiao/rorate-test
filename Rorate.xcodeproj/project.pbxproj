@@ -17,6 +17,15 @@
 		E78896CF15F79CF700B98495 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78896CD15F79CF700B98495 /* ViewController.xib */; };
 		E78896D815F79DD900B98495 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78896D715F79DD900B98495 /* QuartzCore.framework */; };
 		E78896DA15F79E4400B98495 /* tc_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = E78896D915F79E4400B98495 /* tc_wheel.png */; };
+		E78A311415F8D3AB0061B67D /* AnimitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E78A311315F8D3AB0061B67D /* AnimitionView.m */; };
+		E78A311F15F8D52A0061B67D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E78A311715F8D52A0061B67D /* 1.png */; };
+		E78A312015F8D52A0061B67D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E78A311815F8D52A0061B67D /* 2.png */; };
+		E78A312115F8D52A0061B67D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E78A311915F8D52A0061B67D /* 3.png */; };
+		E78A312215F8D52A0061B67D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E78A311A15F8D52A0061B67D /* 4.png */; };
+		E78A312315F8D52A0061B67D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E78A311B15F8D52A0061B67D /* 5.png */; };
+		E78A312415F8D52A0061B67D /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = E78A311C15F8D52A0061B67D /* 6.png */; };
+		E78A312515F8D52A0061B67D /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = E78A311D15F8D52A0061B67D /* 7.png */; };
+		E78A312615F8D52A0061B67D /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = E78A311E15F8D52A0061B67D /* 8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +44,16 @@
 		E78896CE15F79CF700B98495 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		E78896D715F79DD900B98495 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E78896D915F79E4400B98495 /* tc_wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tc_wheel.png; sourceTree = "<group>"; };
+		E78A311215F8D3AB0061B67D /* AnimitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimitionView.h; sourceTree = "<group>"; };
+		E78A311315F8D3AB0061B67D /* AnimitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimitionView.m; sourceTree = "<group>"; };
+		E78A311715F8D52A0061B67D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E78A311815F8D52A0061B67D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E78A311915F8D52A0061B67D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E78A311A15F8D52A0061B67D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		E78A311B15F8D52A0061B67D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		E78A311C15F8D52A0061B67D /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		E78A311D15F8D52A0061B67D /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		E78A311E15F8D52A0061B67D /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +74,6 @@
 		E78896A915F79CF700B98495 = {
 			isa = PBXGroup;
 			children = (
-				E78896D715F79DD900B98495 /* QuartzCore.framework */,
 				E78896BE15F79CF700B98495 /* Rorate */,
 				E78896B715F79CF700B98495 /* Frameworks */,
 				E78896B515F79CF700B98495 /* Products */,
@@ -73,6 +91,7 @@
 		E78896B715F79CF700B98495 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E78896D715F79DD900B98495 /* QuartzCore.framework */,
 				E78896B815F79CF700B98495 /* UIKit.framework */,
 				E78896BA15F79CF700B98495 /* Foundation.framework */,
 				E78896BC15F79CF700B98495 /* CoreGraphics.framework */,
@@ -83,6 +102,7 @@
 		E78896BE15F79CF700B98495 /* Rorate */ = {
 			isa = PBXGroup;
 			children = (
+				E78A311615F8D5130061B67D /* image */,
 				E78896D915F79E4400B98495 /* tc_wheel.png */,
 				E78896C715F79CF700B98495 /* AppDelegate.h */,
 				E78896C815F79CF700B98495 /* AppDelegate.m */,
@@ -90,6 +110,8 @@
 				E78896CB15F79CF700B98495 /* ViewController.m */,
 				E78896CD15F79CF700B98495 /* ViewController.xib */,
 				E78896BF15F79CF700B98495 /* Supporting Files */,
+				E78A311215F8D3AB0061B67D /* AnimitionView.h */,
+				E78A311315F8D3AB0061B67D /* AnimitionView.m */,
 			);
 			path = Rorate;
 			sourceTree = "<group>";
@@ -103,6 +125,21 @@
 				E78896C615F79CF700B98495 /* Rorate-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E78A311615F8D5130061B67D /* image */ = {
+			isa = PBXGroup;
+			children = (
+				E78A311715F8D52A0061B67D /* 1.png */,
+				E78A311815F8D52A0061B67D /* 2.png */,
+				E78A311915F8D52A0061B67D /* 3.png */,
+				E78A311A15F8D52A0061B67D /* 4.png */,
+				E78A311B15F8D52A0061B67D /* 5.png */,
+				E78A311C15F8D52A0061B67D /* 6.png */,
+				E78A311D15F8D52A0061B67D /* 7.png */,
+				E78A311E15F8D52A0061B67D /* 8.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +196,14 @@
 				E78896C315F79CF700B98495 /* InfoPlist.strings in Resources */,
 				E78896CF15F79CF700B98495 /* ViewController.xib in Resources */,
 				E78896DA15F79E4400B98495 /* tc_wheel.png in Resources */,
+				E78A311F15F8D52A0061B67D /* 1.png in Resources */,
+				E78A312015F8D52A0061B67D /* 2.png in Resources */,
+				E78A312115F8D52A0061B67D /* 3.png in Resources */,
+				E78A312215F8D52A0061B67D /* 4.png in Resources */,
+				E78A312315F8D52A0061B67D /* 5.png in Resources */,
+				E78A312415F8D52A0061B67D /* 6.png in Resources */,
+				E78A312515F8D52A0061B67D /* 7.png in Resources */,
+				E78A312615F8D52A0061B67D /* 8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +217,7 @@
 				E78896C515F79CF700B98495 /* main.m in Sources */,
 				E78896C915F79CF700B98495 /* AppDelegate.m in Sources */,
 				E78896CC15F79CF700B98495 /* ViewController.m in Sources */,
+				E78A311415F8D3AB0061B67D /* AnimitionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +331,7 @@
 				E78896D415F79CF700B98495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
